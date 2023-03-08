@@ -1,0 +1,99 @@
+.App {
+  background: linear-gradient(-45deg, #0b0c0c, #236912, #156912, #0b0c0c);
+  background-size: cover;
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.body {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  padding: 30px;
+}
+
+.login-btn {
+  background-color: azure;
+  border-radius: 8px;
+  color: #156912;
+  font-family: sans-serif;
+  font-weight: 800;
+  height: 25px;
+  margin-left: 7px;
+  width: 80px;
+}
+
+.login-btn:hover {
+  height: 28px;
+  width: 83px;
+}
+
+.login-input {
+  background-color: azure;
+  border-radius: 8px;
+  color: #156912;
+  font-family: sans-serif;
+  font-weight: 800;
+  height: 30px;
+  margin-left: 7px;
+  width: 250px;
+}
+
+.links-container {
+  align-items: center;
+  color: antiquewhite;
+  display: flex;
+  flex-flow: row wrap;
+  font-family: serif;
+  font-size: large;
+  justify-content: space-around;
+  justify-items: center;
+}
+
+.links-box {
+  color: aliceblue;
+  font-family: serif;
+  font-size: 25px;
+  font-weight: 900;
+  justify-content: space-around;
+  justify-items: center;
+}
+
+.links-box:hover {
+  font-size: 28px;
+}
+
+.artists-container {
+  align-content: space-between;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.artist-box {
+  height: 250px;
+  width: 250px;
+}
+
+.musics-container {
+  align-content: space-between;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.music-box {
+  align-content: center;
+  display: flex;
+  flex-flow: column wrap;
+  height: 250px;
+  justify-content: center;
+  width: 300px;
+}
+
+.album-link {
+  color: black;
+  font-family: serif;
+  font-weight: 600;
+  justify-items: center;
+}
